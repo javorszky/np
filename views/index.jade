@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	p= "This is the site, yay!"
+
+	form(data-bind="submit: addEntry")
+		input(data-bind="value: entryTitle, valueUpdate: 'afterkeydown'")
+		textarea(data-bind="value: entryText, valueUpdate: 'afterkeydown'")
+		button(type="submit", data-bind="enable: entryTitle().length > 0 && entryText().length > 0")= "Add an entry"
+	div(data-bind="foreach: entries")
+		h2(data-bind="text: title")
+		p(data-bind="text: content")

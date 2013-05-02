@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  p= "You are on the administration area, dude!"
+  form(action="/rest", method="POST")
+    label(for="art_title")= "Title"
+      input(type="text", name="art_title", id="art_title")
+    label(for="art_content")= "Content"
+      textarea(name="content", name="art_content", id="art_content")
+    input(type="submit", value="Add new")

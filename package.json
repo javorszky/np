@@ -1,0 +1,22 @@
+{
+  "name": "Nodepress",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+    "stylus": "*",
+    "mongoose": "*",
+    "nib": "*",
+    "node-uuid": "*",
+    "bcrypt": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-rsync": "~0.1.1"
+  }
+}

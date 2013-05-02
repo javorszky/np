@@ -1,0 +1,8 @@
+{
+	"usage": "Rename this file to np-config.json after having written all the stuff for the configuration. This will be auto-populated and auto-setup much like WordPress's 5 minute install. Also delete this value pair after you're done",
+	"database": {
+		"host": "yourhost",
+		"user": "youruser",
+		"pass": "yourroot"
+	}
+}
