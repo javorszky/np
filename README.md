@@ -17,4 +17,3 @@ Clone it, type `npm install`, configure it (I don't know how yet) to work on you
 * Get authentication and cookie management working
 * Get database schema under control
 * Figure out what to do after these
-
